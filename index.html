@@ -3,7 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
+
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        section{
+            text-decoration-line: none;
+        }
+    </style>
 </head>
 <body>
    
@@ -23,16 +34,21 @@
  <article>
     <section id="About Me">
     <h2 style="text-align: center;">About Me</h2>
-    <figure>
-       <p style="text-align: center;"> <img src="me.png" alt="picture" height="180" ></p>
-    </figure>
-    <p style="text-align: center;"><b>NAME:</b> Regelou S. Wenceslao <br>
-        <b>ADDRESS:</b> D-8 BRGY. TALISAY TANGUILE NASIPIT AGUSAN DEL NORTE   </p>  
-       <br>  
-       <p style="text-align: center;">My Brother & Her Girlfriend </p>
-       <p style="text-align: center;"><img src="bayot.png" alt="picture" height="200">
-       <img src="mayeng.png" alt="picture" height="200"></p>
-        <p style="text-align: center;"><b>Jazper S. Wenceslao &nbsp;   Mariel Bonjan<b> </p>
+        <figure>
+            <figcaption>
+            <p style="text-align: center;"> <img src="me.png" alt="picture" height="180" ></p>
+   
+            <p style="text-align: center;"><b>NAME:</b> Regelou S. Wenceslao 
+                <br>
+            <b>ADDRESS:</b> D-8 BRGY. TALISAY TANGUILE NASIPIT AGUSAN DEL NORTE</p>  
+             <br>  
+            <p style="text-align: center;">My Brother & Her Girlfriend </p>
+
+            <p style="text-align: center;"><img src="bayot.png" alt="picture" height="200"></p>
+            <img src="mayeng.png" alt="picture" height="200">
+            <p style="text-align: center;"><b>Jazper S. Wenceslao &nbsp;   Mariel Bonjan<b> </p>
+            </figcaption>
+       </figure>      
     </section> 
 </article>
 
@@ -43,41 +59,58 @@
 <article>
     <h1 style="text-align: center;">Friends</h1>
     <section id="Friends">
-        <p>My Friends in School New/Old </p>
-        <figure>
-        <figcaption>
-            <p>
+        <p style="text-align: center;">My Friends in School New/Old </p>
+        <section class="container">
+            <section id="mara">
                 <img src="mara.png" alt="picture" height="239px">
-                <li><b>Mara Cely / =girl friend</b></li> <br>
+                <p>Mara Cely</p>
+                </section>
+                <section id="melo">
+
                 <img src="melo.png" alt="picture" height="239px">
-                <li><b>Melody </b></li> <br>
-                <img src="jor.png" alt="pcture" height="180px">
-                <li><b>Ate Jorica</b></li> <br>
+                <p>Melo</p>
+                </section>
+
+                <section id="jor">
+                <img src="jor.png" alt="pcture" height="269px" width="187px">
+                <p>Jorica</p>
+                </section>
+
+                <section id="june">
                 <img src="june.png" alt="picture" height="270px">
-                <li><b>Juneyboy </b> </li> <br>
-                <img src="medel.png" alt="picture" height="182">
-                <li><b>Medel</b></li> <br>
+                <p>June</p>
+                </section>
+
+                <section id="medel">
+                <img src="medel.png" alt="picture" height="265" width="188px">
+                <p>Medel</p>
+                </section>
+
+                <section id="pahak">
                 <img src="pahak.png" alt="picture" height="263">
-                <li><b>Rken</b></li> <br>
+                <p>Rken</p>
+                </section>
+
+
+                <section id="april">
                 <img src="april.png" alt="picture" height="243">
-                <li><b>April</b>  </li>
-                
-           </p> 
-        </figure>
-        </figcaption>
+                <p>April</p>
+                </section>
+        </section>
     </section>
 </article>
 <hr>
     
 <article>
     <h3 style="text-align: center;">Favourite</h3>
-    <section id="Favourite"><p> <b>Some of ma Favourite things to do </b></p>
+    <section id="Favourite"><p style="text-align: center;"> <b>Some of My Favourite things to do. </b></p>
         <figure>
         <figcaption>
-            <ul>
-                <li><b>Cleaning</b></li>
-                <li><b>List Music </b></li>
-                <li><b>Doing Nails</b> </li>
+            <ul> 
+                <p style="text-align: center;"><b>Cleaning</b></p>
+                <p style="text-align: center;"><b>List Music </b></p>
+                <p style="text-align: center;"><b>Doing Nails</b></p>
+        
             </ul> 
             </figure>
         </figcaption>
@@ -86,18 +119,15 @@
 <hr>
 
 
-    <article>
+    <article id="Hobbies">
         <h1 style="text-align: center;">Hobbies</h1>
-        <section id="Hobbies">
-           
-
-             <p><b>Inside the House:</b></p>
+        <section>
+            <p><b>Inside the House:</b></p>
              <ul>
              <li>Watching Randoms Movie </li>
              <li>Sleeping </li>
              <li>Baby Sitter </li>
-             <li>Dancing.</li>
-            </ul>
+             <li>Dancing </li>
 
             <p><b>Out Side the House:</b></p>
             <ul>
