@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.amiga{
+    padding: auto auto;
+    margin: auto auto;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+}
+.hopya{
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+
+}
